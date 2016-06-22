@@ -13,6 +13,7 @@ caching-compiler@1.0.5
 caching-html-compiler@1.0.6
 callback-hook@1.0.9
 check@1.2.3
+coffeescript@1.1.1
 ddp@1.2.5
 ddp-client@1.2.8
 ddp-common@1.2.6
@@ -35,6 +36,10 @@ jquery@1.11.9
 launch-screen@1.0.12
 livedata@1.0.18
 logging@1.0.13
+manuel:isdev@1.0.0
+manuel:reactivearray@1.0.5
+manuel:viewmodel@4.1.6
+manuel:viewmodel-debug@2.7.0
 meteor@1.1.15
 meteor-base@1.0.4
 minifier-css@1.1.12
@@ -51,10 +56,12 @@ observe-sequence@1.0.12
 ordered-dict@1.0.8
 promise@0.7.2
 random@1.0.10
+reactive-dict@1.1.8
 reactive-var@1.0.10
 reload@1.1.9
 retry@1.0.8
 routepolicy@1.0.11
+sha@1.0.8
 spacebars@1.0.12
 spacebars-compiler@1.0.12
 standard-minifier-css@1.0.7

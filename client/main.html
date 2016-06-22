@@ -9,4 +9,22 @@
 
 <template name="hello">
 Just a package that shows you how to install RTCMultiConnection within a Meteor 1.3 app
+
+    <hr>
+
+    <div>
+        <p>Your user id: <strong>{{peerId}}</strong></p>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Type in user id..." {{b "value:callUser"}}>
+        <button {{b "click:call"}}>Call user</button>
+    </div>
+
+
+    <div style="margin-top:200px;">
+
+        <video id="ownvideo" autoplay muted></video>
+        <video id="foreign" autoplay></video>
+    </div>
 </template>

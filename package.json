@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
-    "rtcmulticonnection-v3": "^3.3.6"
+    "rtcmulticonnection-v3": "^3.3.6",
+    "webrtc-adapter": "^1.4.0"
   }
 }
