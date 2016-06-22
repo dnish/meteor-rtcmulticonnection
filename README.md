@@ -1,0 +1,1 @@
+Just a simple demo how to include RTCMultiConnection within a Meteor 1.3 app.
