@@ -35,7 +35,8 @@ Template.hello.viewmodel({
 
         
 
-        myConnection.iceServers = [{urls:'stun:stun.l.google.com:19302'}];
+        //STUN & TURN server
+        myConnection.iceServers = [{urls:'stun:stun.l.google.com:19302'},{urls: 'turn:webrtcweb.com:80', username: 'muazkh', credential: 'muazkh'}];
 
         myConnection.socketURL = "https://rtcmulticonnection.herokuapp.com:443/"; //Replace with your own socket server
         myConnection.connectSocket(() => {
