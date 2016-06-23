@@ -38,11 +38,15 @@ Template.hello.viewmodel({
         myConnection.iceServers = [{urls:'stun:stun.l.google.com:19302'}];
 
         myConnection.socketURL = "https://rtcmulticonnection.herokuapp.com:443/"; //Replace with your own socket server
-        myConnection.connectSocket();
+        myConnection.connectSocket(() => {
 
-        //Getting own user id - don't be confused, this.peerId(value) is how we set reactive variables with ViewModel - use it instead of pure Blaze ;)
 
-        this.peerId(myConnection.userid);
+            //Getting own user id - don't be confused, this.peerId(value) is how we set reactive variables with ViewModel - use it instead of pure Blaze ;)
+            this.peerId(myConnection.userid);
+        });
+
+  
+        
 
 
 
